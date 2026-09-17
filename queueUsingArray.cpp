@@ -75,15 +75,32 @@ public:
 };
 int main()
 {
+    cout << "This program is written by Akshat Vats 2503201000145 CSE 11" << endl;
+
     int size;
     cin >> size;
     Queue q(size);
-        q.enqueue(10);
-        q.enqueue(20);
-        q.enqueue(30);
-        q.enqueue(40);
-        q.dequeue();
-        q.peek();
-        q.display();
-       return 0;
+    q.enqueue(10);
+    q.enqueue(20);
+    q.enqueue(30);
+    q.enqueue(40);
+    q.dequeue();
+    q.peek();
+    q.display();
+    return 0;
 }
+
+/*
+Sample Input:
+5
+
+Output:
+This program is written by Akshat Vats 2503201000145 CSE 11
+Enqueued 10
+Enqueued 20
+Enqueued 30
+Enqueued 40
+Removed: 10
+Front: 20
+Queue: 20 30 40
+*/

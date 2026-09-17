@@ -59,6 +59,8 @@ public:
     }
 };
 int main() {
+    cout << "This program is written by Akshat Vats 2503201000145 CSE 11" << endl;
+
     Stack st;
     st.push(10);
     st.push(20);
@@ -69,3 +71,10 @@ int main() {
     st.display();
     return 0;
 }
+
+/*
+Output:
+This program is written by Akshat Vats 2503201000145 CSE 11
+Stack: 40 30 20 10
+Stack: 30 20 10
+*/

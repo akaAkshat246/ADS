@@ -54,6 +54,8 @@ public:
 };
 
 int main() {
+    cout << "This program is written by Akshat Vats 2503201000145 CSE 11" << endl;
+
     CircularQueue q(5);
     q.push(10);
     q.push(20);
@@ -68,3 +70,11 @@ int main() {
 
     return 0;
 }
+
+/*
+Output:
+This program is written by Akshat Vats 2503201000145 CSE 11
+10 20 30
+20 30
+20 30 40 50 60
+*/

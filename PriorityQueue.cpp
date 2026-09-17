@@ -51,6 +51,8 @@ public:
 };
 int main()
 {
+    cout << "This program is written by Akshat Vats 2503201000145 CSE 11" << endl;
+
     PriorityQueue q;
     q.insert(10);
     q.insert(30);
@@ -67,3 +69,13 @@ int main()
 
     return 0;
 }
+
+/*
+Output:
+This program is written by Akshat Vats 2503201000145 CSE 11
+Queue: 10 30 20 50
+Deleted: 50
+Queue: 10 30 20
+Deleted: 30
+Queue: 10 20
+*/

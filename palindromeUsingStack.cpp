@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
+    cout << "This program is written by Akshat Vats 2503201000145 CSE 11" << endl;
+
     int n;
     cin >> n;
     int original = n;
@@ -26,6 +28,15 @@ int main() {
 
     return 0;
 }
+
+/*
+Sample Input:
+121
+
+Output:
+This program is written by Akshat Vats 2503201000145 CSE 11
+Palindrome
+*/
 
 
 

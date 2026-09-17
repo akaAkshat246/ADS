@@ -89,6 +89,8 @@ public:
 };
 
 int main() {
+    cout << "This program is written by Akshat Vats 2503201000145 CSE 11" << endl;
+
     Deque d(5);
 
     d.push_back(10);
@@ -102,3 +104,10 @@ int main() {
 
     return 0;
 }
+
+/*
+Output:
+This program is written by Akshat Vats 2503201000145 CSE 11
+5 10 20 30
+10 20
+*/
